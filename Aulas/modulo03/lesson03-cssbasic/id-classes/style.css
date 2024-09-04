@@ -1,0 +1,33 @@
+#cabecalho{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#conteudo{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragrafoDestaque{
+    padding: 10px;
+    border-left: 4px solid #fbc02d;
+}
+
+.botao{
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.cliqueAqui{
+    background-color: #4caf50;
+}
+
+.saibaMais{
+    background-color: #008cba;
+}
