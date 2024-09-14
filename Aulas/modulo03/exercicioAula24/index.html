@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="formContact">
+        <div class="topBar">
+            <h2>Contato</h2>
+        </div>
+        <form>
+            <label for="nomeUsuario">Nome: </label>
+            <input type="name" placeholder="Seu nome completo" required>
+
+            <label for="email">E-mail: </label>
+            <input type="email" placeholder="email@email.com" required>
+
+            <label for="telefone">Telefone: </label>
+            <input type="tel" placeholder="99 99999-9999" required>
+
+            <label for="assunto">Assunto: </label>
+            <select name="help" id="help">
+                <option value="">Selecione...</option>
+                <option value="duvida">Dúvida</option>
+                <option value="Suporte">Suporte</option>
+                <option value="FeedBack">FeedBack</option>
+            </select>
+
+            <label for="mensagem" class="checkboxForm">Mensagem: </label>
+            <textarea name="message" id="message" rows="5" placeholder="Digite a sua mensagem"></textarea>
+
+            <label for="terms">Eu aceito os<a href="https://policies.google.com/terms?hl=pt-PT"> termos de uso.</a>
+                <input id="checkbox" type="checkbox" name="terms" value="term" required>
+            </label>
+            <button class="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

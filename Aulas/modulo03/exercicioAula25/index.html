@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário E-Comerce</title>
+</head>
+<body>
+    <form>
+        <div class="topBar"><h1>Cadastre-se</h1></div>
+        <div class="formData">
+            <label for="text">Nome completo:</label>
+        <input type="name" name="name" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password" required>
+
+        <label for="pais">Selecione seu país:</label>
+        <select name="pais" id="pais" required>
+            <option value="selecao">Selecione...</option>
+            <option value="brasil">Brasil</option>
+            <option value="argentina">Argentina</option>
+            <option value="chile">Chile</option>
+        </select>
+
+
+        <label for="genero">Gênero:</label>
+        <fieldset>
+            <input class="genOptions" type="radio" name="genero" value="masculino" id="masculino"> 
+            <label for="masculino">Masculino</label>
+                
+            <input class="genOptions" type="radio" name="genero" value="feminino" id="feminino"> 
+            <label for="feminino">Feminino</label>
+                
+            <input class="genOptions" type="radio" name="genero" value="outros" id="outros"> 
+            <label for="outros">Outros</label>
+        </fieldset>
+        
+        <div class="checkbox-container">
+            <input class="term" type="checkbox" name="termo" id="termo" required>
+            <label for="termo">Eu aceito os termos.</label>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>

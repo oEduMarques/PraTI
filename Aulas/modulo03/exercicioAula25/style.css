@@ -1,0 +1,105 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.topBar {
+    background-color: orange;
+    color: #fdf2ce;
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    box-sizing: border-box;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+form{
+    color: rgb(95, 63, 5);
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: #fdf2ce;
+    box-shadow: 3px 3px 10px rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formData{
+    padding: 20px;
+}
+
+
+label {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    width: 100%;
+}
+
+input:focus, select:focus, button:focus {
+    outline: 2px solid darkorange;
+    outline-offset: 2px;
+}
+
+input, select{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"], input[type="checkbox"]  {
+    accent-color: orange;
+    vertical-align: middle;
+    margin: 9px 0 0 0;
+}
+
+
+fieldset {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre o input e o rótulo */
+    margin: 10px 0;
+}
+
+fieldset label{
+    font-weight: normal;
+}
+
+button {
+    color: #fdf2ce;
+    margin: 20px auto;
+    font-weight: bold;
+    background-color: orange;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+button:hover{
+    background-color: darkorange;
+    cursor: pointer;
+}
+
