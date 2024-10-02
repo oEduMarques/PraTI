@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+form{ 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.603);
+    background-color: #f4f4f4;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.resultado{
+    color: white;
+    font-weight: bold;
+    height: 90px;
+    font-size: 1.6em;
+    text-align: right;
+    background-color: #2e2d2d;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 50px 10px;
+}
+
+.botao{
+    background-color: white;
+    width: 80px;
+    border: none;
+    font-size: 2em;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.botao-operacao{
+    background-color: #e9e3e3;
+}
+
+.botao-operacao:hover{
+    background-color: #bbbbbb;
+}
+
+.botao:hover{
+    background-color: #f4f4f4;
+}
+
+.botao:active{
+    background-color: #f9f9f9;
+    transform: scale(1.05);
+}
+
+.c{
+    color: white;
+    width: 100%;
+    background-color: red;
+}
+
+.zero{
+    width: 100%;
+}
+
+.calcular{
+    width: 100%;
+}
+
+
+.c:hover{
+    background-color: rgb(204, 0, 0);
+}
+
+@media (max-width: 600px){
+    .botao{
+        width: 100%;
+        height: 50px;
+        font-size: 1.2em;
+    }
+
+    .resultado{
+        height: 50px;
+        font-size: 1.5em;
+    }
+}
