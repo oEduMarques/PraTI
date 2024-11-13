@@ -28,7 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 1%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     z-index: 20;
 }
@@ -64,7 +64,7 @@ header {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 300px;
     letter-spacing: 1px;
     cursor: pointer;
     padding: 10px;
@@ -78,14 +78,14 @@ header {
 
 .search {
     position: relative;
-    width: 130px;
-    height: 40px;
+    width: 10vh;
+    height: 4vh;
     transition: 0.5s;
 }
 /* A barra de busca tem uma largura inicial de 130px, altura de 40px, e uma transição de 0,5s. */
 
 .search:hover {
-    width: 300px;
+    width: 50vh;
 }
 /* Quando o usuário passa o mouse sobre a barra de busca, ela se expande para 300px de largura. */
 
@@ -167,7 +167,7 @@ header {
 
 .swiper .swiper-wrapper .swiper-slide .banner img {
     position: absolute;
-    max-width: 700px;
+    max-width: 30%;
     transform: translateX(-50%);
     z-index: 1;
     left: 50%;
@@ -176,8 +176,8 @@ header {
 
 .swiper .swiper-button-prev {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 3%;
+    height: 6%;
     top: 50%;
     left: 60%;
     z-index: 100;
@@ -189,8 +189,8 @@ header {
     position: absolute;
     right: 70%;
     top: 50%;
-    width: 60px;
-    height: 60px;
+    width: 3%;
+    height: 6%;
     z-index: 100;
     background-color: blue;
 }
@@ -202,8 +202,8 @@ header {
     align-items: center;
     justify-content: center;
     color: rgba(255, 255, 255, 0.5);
-    width: 60px;
-    height: 60px;
+    width: 2%;
+    height: 2%;
     line-height: 0;
     background: transparent;
     border-radius: 50%;
@@ -216,8 +216,7 @@ header {
 /* Define a altura máxima de 70% da viewport para os elementos com a classe 'right'. */
 
 .banner img {
-    max-width: 790px;
-    max-height: 790px;
+    max-height: 75vh;
     width: 50%;
     height: 50%;
 }
@@ -231,8 +230,7 @@ header {
 /* O conteúdo à esquerda do banner é exibido em uma coluna flexível, espaçado uniformemente. */
 
 .banner .left .features {
-    max-width: 400px;
-    margin-bottom: 100px;
+    width: 100%;
 }
 /* A seção de recursos à esquerda tem largura máxima de 400px e uma margem inferior de 100px. */
 
