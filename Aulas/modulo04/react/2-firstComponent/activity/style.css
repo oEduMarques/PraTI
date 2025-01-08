@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 5%;
+    background-color: rgb(37, 37, 37);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.jsIcon {
+    width: 5%;
+    height: auto;
+    margin-right: 1%;
+}
+
+.text-head {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    color: rgb(252, 252, 87);
+    font-size: 1.9rem;
+}
+
+.about {
+    color: white;
+    font-size: 0.7em;
+}
+
+.top {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.content-container {
+    margin-top: 2%;
+}
+
+.option {
+    padding: 1%;
+    color: white;
+    background-color: rgb(48, 48, 48);
+    border: 0;
+    border-top-left-radius:  4%;
+    border-top-right-radius:  4%;
+    font-size: 1.1em;
+}
+
+.option:hover {
+    background-color: rgb(252, 252, 87);
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+
+.option:focus {
+    background-color: rgb(252, 252, 87);
+    color: rgb(37, 37, 37);
+    outline: none; /* Remove a borda do focus padrão */
+}
+
+.text-content {
+    background-color: rgb(54, 54, 54);
+    padding: 50px;
+    max-width: 40%;
+}
+
+.result-option {
+    color: white;
+    font-size: 1.5em;
+}
+
+.result-option li {
+    margin-bottom: 3%;
+}
